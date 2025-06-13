@@ -1,65 +1,65 @@
 # For Learning Codex
 
-This repository contains a minimal TypeScript setup. It includes Jest for tests, ESLint for linting, and Prettier for code formatting.
+此代码仓库包含一个精简的 TypeScript 项目设置。它包括用于测试的 Jest、用于代码检查的 ESLint 以及用于代码格式化的 Prettier。
 
-## Installation
+## 安装
 
-Make sure you have Node.js installed. Then install project dependencies:
+请确保你已安装 Node.js。然后安装项目依赖：
 
 ```bash
 npm install
 ```
 
-## Scripts
+## 脚本命令
 
-- **Build**: compile the TypeScript source
+- **构建**：编译 TypeScript 源代码
 
   ```bash
   npm run build
   ```
 
-- **Start**: run the compiled application
+- **启动**：运行已编译的应用程序
 
   ```bash
   npm start
   ```
 
-- **Development**: run directly from TypeScript
+- **开发模式**：直接运行 TypeScript 源文件
 
   ```bash
   npm run dev
   ```
 
-- **Watch Build**: continuously compile on changes
+- **监听构建**：文件变动时自动编译
 
   ```bash
   npm run watch
   ```
 
-- **Test**: execute the test suite
+- **测试**：执行测试套件
 
   ```bash
   npm test
   ```
 
-  Additional options:
-  - `npm run test:watch` – run tests in watch mode.
-  - `npm run test:coverage` – generate a coverage report.
+  其他可选命令：
+  - `npm run test:watch` – 在监听模式下运行测试。
+  - `npm run test:coverage` – 生成测试覆盖率报告。
 
-- **Lint**: check code style using ESLint
+- **代码检查**：使用 ESLint 检查代码风格
 
   ```bash
   npm run lint
   ```
-  - `npm run lint:fix` – automatically fix lint errors.
+  - `npm run lint:fix` – 自动修复代码风格错误。
 
-- **Format**: format files with Prettier
+- **代码格式化**：使用 Prettier 格式化文件
 
   ```bash
   npm run format
   ```
-  - `npm run format:check` – verify formatting without writing changes.
+  - `npm run format:check` – 检查格式是否符合规范但不修改文件。
 
-## Testing and Formatting
+## 测试与格式化
 
-Run the tests with `npm test` or the other test commands listed above. Formatting is handled by Prettier; run `npm run format` before committing changes to keep the codebase consistent.
+可使用 `npm test` 或上方列出的其他测试命令运行测试。格式化由 Prettier 工具完成；在提交更改前请运行 `npm run format`，以保持代码库风格一致。
